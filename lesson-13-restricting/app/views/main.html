@@ -1,0 +1,30 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#">About</a></li>
+    <li><a ng-href="#">Contact</a></li>
+  </ul>
+  <h3 class="text-muted">Firebase</h3>
+</div>
+
+<div class="jumbotron">
+  <div ng-repeat="message in messages">
+    {{ message.user }} - {{ message.text }}
+  </div>
+</div>
+
+<button type="button" class="btn btn-danger" ng-click="turnFeedOff()">Turn feed off</button>
+
+<div class="row marketing">
+  <input type="text" class="form-control" ng-model="currentUser" />
+  <div class="input-group">
+    <input type="text" class="form-control" ng-model="currentText">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button" ng-click="sendMessage()">Send</button>
+    </span>
+  </div>
+</div>
+
+<div class="footer">
+  <p>♥ from the Yeoman team</p>
+</div>

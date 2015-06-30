@@ -1,0 +1,20 @@
+{
+  "messages" : {
+    "-JIQWA3ZPdhrYE-2Kvh_" : {
+      "text" : "How are you doing?",
+      "user" : "Jane"
+    },
+    "-JIQW68iec1ubLe0GT9n" : {
+      "text" : "I am!",
+      "user" : "Jane"
+    },
+    "-JIQW1AccYtaTxx-Rfqo" : {
+      "text" : "Anyone there?",
+      "user" : "Bob"
+    },
+    "-JIQVuPzI4evKzqRbChK" : {
+      "text" : "Hello!",
+      "user" : "Bob"
+    }
+  }
+}
